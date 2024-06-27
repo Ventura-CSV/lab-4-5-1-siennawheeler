@@ -9,11 +9,13 @@ def main():
     """
 
     total = 0
-    numbers[0] * 5
+    numbers = [0] * 5
     index = 0
+
     while index < 5:
         numbers[index] = random.randint(0, 100)
         total = total + numbers[index]
+        index = index + 1
 
 
     print(f'The random values are {numbers}')
