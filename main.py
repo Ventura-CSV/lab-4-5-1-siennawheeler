@@ -8,6 +8,14 @@ def main():
     ########################################
     """
 
+    total = 0
+    numbers[0] * 5
+    index = 0
+    while index < 5:
+        numbers[index] = random.randint(0, 100)
+        total = total + numbers[index]
+
+
     print(f'The random values are {numbers}')
     print(f'The total is {total}')
 
